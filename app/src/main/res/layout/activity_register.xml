@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/reglinearLayout"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textreg8"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="96dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Sudah Punya akun?"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.326"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textreg9"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginBottom="96dp"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Masuk"
+            android:textColor="@color/redcolor"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="382dp"
+        android:layout_height="430dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425">
+
+        <EditText
+            android:id="@+id/textreg2"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Nama Lengkap"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.204" />
+
+        <EditText
+            android:id="@+id/textreg3"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Username"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.303" />
+
+        <EditText
+            android:id="@+id/textreg4"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Email"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.41" />
+
+        <EditText
+            android:id="@+id/textreg5"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="No Handphone"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.512" />
+
+        <EditText
+            android:id="@+id/textreg6"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Kata Sandi"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.611" />
+
+        <EditText
+            android:id="@+id/textreg7"
+            android:layout_width="376dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buton_shape02"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Konfirmasi Kata Sandi"
+            android:paddingLeft="20sp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.708" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnreg1"
+        android:layout_width="269dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/buton_shape"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Daftar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgreg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/onboarding_img1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textreg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Buat Akun"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:id="@+id/imgreg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/onboarding_img3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
